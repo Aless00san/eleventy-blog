@@ -1,0 +1,8 @@
+# Personal details used for public facing pages (legal pages) and footer platform links.
+
+email: santaniello00@gmail.com  
+address: |-
+  Barcelona, Spain
+platforms:
+  github: 'https://github.com/Aless00san'
+  bluesky: 'https://bsky.app/profile/lexabun.bsky.social'

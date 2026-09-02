@@ -1,0 +1,16 @@
+{
+  "title": "Border Radius",
+  "description": "",
+  "prefix": "border-radius",
+  "meta": {},
+  "items": [
+    {
+      "name": "small",
+      "value": "0.15rem"
+    },
+    {
+      "name": "Medium",
+      "value": "0.2rem"
+    }
+  ]
+}
