@@ -3,4 +3,21 @@
   padding: var(--space-s) 0;
   font-size: var(--size-step-0);
   text-decoration: none;
+  color: #000;
+}
+
+.logo svg {
+  fill: currentColor;
+}
+
+/* Dark theme: explicit user choice */
+:root[data-theme='dark'] .logo {
+  color: #fff;
+}
+
+/* Dark theme: follow OS preference when no explicit choice */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .logo {
+    color: #fff;
+  }
 }

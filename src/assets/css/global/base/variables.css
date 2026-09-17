@@ -34,15 +34,15 @@
 :root,
 :root[data-theme='light'] {
   --color-text: var(--color-gray-800);
-  --color-bg: var(--color-gray-100);
+  --color-bg: rgb(250, 246, 236);
 
   --color-primary: var(--color-pink);
   --color-secondary: var(--color-blue);
   --color-tertiary: var(--color-gold);
 
   --color-text-accent: var(--color-gray-700);
-  --color-bg-accent: var(--color-gray-200);
-  --color-bg-accent-2: var(--color-gray-300);
+  --color-bg-accent: var(--color-sand);
+  --color-bg-accent-2: var(--color-sand-dark);
 }
 
 /* Dark theme */

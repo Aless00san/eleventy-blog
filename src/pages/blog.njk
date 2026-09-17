@@ -1,0 +1,41 @@
+---
+layout: base
+title: Blog
+description: 'All blog posts can be found here'
+pagination:
+  data: collections.allPosts
+  size: 8
+permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
+---
+
+<div class="wrapper flow">
+  <header class="">
+      <h1 style="margin-top: 120px;">{{ title }}</h1>
+      <hr/ style="width: 100%; margin-block: 8px">
+  </header>
+
+  <div class="region flow">
+    <p>Este blog tiene una paginación de <strong>{{ pagination.size }}</strong> posts por pagina.<br>
+      La paginación solo se muestra si hay más de 
+      <strong>{{ pagination.size }}</strong> posts que mostrar por 
+      página (<strong>{{ pagination.size }}</strong>).
+    </p>
+  </div>
+
+  <custom-masonry layout="50-50">
+		{% asyncEach item in pagination.items %}
+			{% include "partials/card-blog.njk" %}
+		{% endeach %}
+	</custom-masonry>
+
+  <!-- set collection to paginate -->
+  {% set collectionToPaginate = collections.posts %}
+  <!-- set target pagination settings in meta.js -->
+  {% set metaKey = "blog" %}
+  <!-- if the number of items in the collection is greater than the number of items shown on one page -->
+  {% if collectionToPaginate.length > pagination.size %}
+    <!-- include pagination -->
+    {% include 'partials/pagination.njk' %}
+  {% endif %}
+</div>
+

@@ -5,18 +5,13 @@ description: 'Eleventy Excellent is inspired bythe companion website of Andy Bel
 layout: page
 ---
 
-This starter uses modern CSS, fluid type & space, flexible Layouts and Progressive Enhancement, wrapped in a basic template.
+Esto es Patched, mi blog personal.
 
-It is built around the CSS boilerplate by Andy Bell and inspired by Andy's talk **'Be the browser’s mentor, not its micromanager'**.
+Soy una desarrolladora de software trans, y tengo mucho que decir, principalmente sobre tecnología nerd y experiencias personales.
 
-If you want to know exactly how it all works, [read this article on piccalil.li](https://piccalil.li/blog/a-css-project-boilerplate/).
+Soy una gran fan del software libre, y me encantaría compartir mis 
+hallazgos con la comunidad. Para rematar, recientemente he comenzado mi transición, y está siendo un viaje salvaje, estoy segura que disfrutareis de las historias.
 
-The aim is to spread the idea and use of this _excellent_ workflow. To work with it efficiently you should be familiar with [cube.fyi](https://cube.fyi/), [utopia.fyi](https://utopia.fyi/) and [every-layout.dev](https://every-layout.dev/).
+Por favor, sentios libre de contactarme en cualquiera de las plataformas de redes sociales que hayas listado en el pie de página.
 
-- buildexcellentwebsit.es
-- Study the [original CSS boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main)
-
-## Watch the talk
-
-<div><custom-youtube @slug="JqnMI1AXl6w" @label="Andy Bell – Be the browser’s mentor, not its micromanager"> </custom-youtube></div>
-
+Funfact: He obtenido el dominio patched.blog porque los "parches" frman parte de tanto el tech como del hrt, cosas que seguro serán parte de este blog.

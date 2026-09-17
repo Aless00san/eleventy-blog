@@ -22,5 +22,14 @@
       "value": "#fbbe25"
     }
   ],
-  "standalone": []
+  "standalone": [
+    {
+      "name": "Sand",
+      "value": "#ede4cf"
+    },
+    {
+      "name": "Sand Dark",
+      "value": "#d5caae"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 ---
 title: 'Porqué voy a dejar spotify (y quizás tú también deberías )  '
-description: "This is a test"
+description: "Pequeño rant sobre el estado de Spotify"
 date: 2026-08-29
 ---
 

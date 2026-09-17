@@ -62,6 +62,14 @@
     {
       "name": "Gold Subdued",
       "value": "#f1c15b"
+    },
+    {
+      "name": "Sand",
+      "value": "#ede4cf"
+    },
+    {
+      "name": "Sand Dark",
+      "value": "#d5caae"
     }
   ]
 }

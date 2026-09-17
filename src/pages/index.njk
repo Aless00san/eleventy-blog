@@ -1,37 +1,25 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Untitled Blog'
+title: 'Patched1'
 description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
 blog:
-  title: 'Blog'
-  intro: "Welcome to my blog"
+  title: 'Blog Posts'
 ---
 
 <div class="wrapper">
-  <header class="full | section spot-color-theme-primary">
-    <div class="section__inner flow region">
-      <h1 class="text-center text-theme-light">{{ title }}</h1>
-    </div>
-    
+  <header class="">
+    <p> Answerws to the questions nobody ever had. </p>
+    <hr style="width: 100%; margin-block: 8px; height: 2px">
   </header>
-
-  <article class="full | region">
-    <div class="prose wrapper flow">
-      <p>
-        Este blog está en construcción
-      </p>
-      
-    </div>
-  </article>
-
+  
   <section class="full | region">
-    <div class="prose wrapper flow">
-      <h2>{{ blog.title }}</h2>
+    <div class="wrapper">
+      <h3>{{ blog.title }}</h3>
       {% if blog.intro %}
         <p>{{ blog.intro }}</p>
       {% endif %}
-      <div class="feature |  region region-space-l">
+      <div style="margin-top: 4%"></div>
         <custom-masonry layout="50-50">
           {% set itemList = collections.allPosts %}
 					{% asyncEach item in itemList.slice(0, 4) %}
