@@ -17,7 +17,7 @@ export const author = {
 export const creator = {
   name: 'Lexa', // i.e. Lene Saile - creator's (developer) name.
   email: 'santaniello00@gmail.com',
-  website: 'https://placehold.co/600x400',
+  website: 'https://bsky.app/profile/lexabun.tgirl.gay',
   social: 'https://bsky.app/profile/lexabun.tgirl.gay'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation

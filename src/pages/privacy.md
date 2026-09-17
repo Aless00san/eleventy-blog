@@ -3,37 +3,36 @@ title: Privacy Policy
 discover:
   title: Privacy Policy
 permalink: /privacy/index.html
-description: I respect the EU General Data Protection Regulation (GDPR). This policy document explains how I collect and handle any information you provide to me.
+description: Esta web respeta la regulación europea (GDPR). Este documento explica como se gestiona la información recibida por los usuarios.
 date: "Last Modified"
 layout: page
 ---
 
-I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
+Respeto la regulación europea General Data Protection Regulation (GDPR) y este documento explica como recolecto y pongo en uso cualquier información que me proporcioneis.
 
-**What background data is collected?**
-This site does not use any third party tracking scripts.
+**¿Qué tipo de datos son recolectados en segundo plano?**
+Esta página no usa ningún script de rastreo de terceras partes.
 
-**How do I use the data you provide?**
-This website does not collect any data.
+**¿Cómo uso los datos que recolecto**
+Esta web no recoge ningún dato.
 
-**How secure is your data?**
-Very secure, as this website does not collect any information.
+**Como de seguros están vuestros datos**
+Lo más seguros posible, dado que la web no recoge ningún tipo de información.
 
-**How secure is this website?**
-This website transmits itself using HTTPS, encrypting all data between the browser and the server. Your network provider can still see that you are downloading assets from this site, but not its content. This also protects you from third parties intercepting data, for example, while browsing on public WiFi, or from network providers injecting advertisements on this site. All relevant response HTTP headers are set for your protection and the Content Security Policy is adjusted to this websites requirements.
+**Cómo de segura es la web**
+Esta página web se transmite utilizando HTTPS, cifrando todos los datos entre el navegador y el servidor. Tu proveedor de red aún puede ver que estás descargando recursos de este sitio, pero no su contenido. Esto también te protege de que terceros intercepten datos, por ejemplo, mientras navegas en WiFi público, o de que los proveedores de red inyecten anuncios en este sitio. Todos los encabezados HTTP de respuesta relevantes están configurados para su protección y la Política de Seguridad de Contenidos se ajusta a los requisitos de este sitio web.
 
 **Data controller**
 
 {{ personal.address }}
 
-If you have any questions or doubts, please contact me: {{ personal.email }}.
+Si tienes dudas o preguntas, por favor contactame en: {{ personal.email }}.
 
-**Changes to the policy**
-If I change the content of this policy, those changes will be effective at the time I post them here.
+**Cambios a la política**
+Si cambian los contenidos de esta política, los cambios serán efectivos desde el momento que se publiquen en esta página.
 
-**Complaints**
-If you have any reason to complain about the way I handle your privacy, please contact me by email: {{ personal.email }}.
-
+**Quejas**
+Si por alguna razón, necesitas discutir algo sobre la manera en la que gestiono vuestra privacidad, por favor contactadme por este email:  {{ personal.email }}.
 ---
 
-*Last updated: {{ page.date | formatDate('MMMM D, YYYY') }}*
+*Ultima actualización: {{ page.date | formatDate('D MMMM, YYYY') }}*
