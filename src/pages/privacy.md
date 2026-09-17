@@ -8,7 +8,7 @@ date: "Last Modified"
 layout: page
 ---
 
-Respeto la regulación europea General Data Protection Regulation (GDPR) y este documento explica como recolecto y pongo en uso cualquier información que me proporcioneis.
+Respeto la regulación europea General Data Protection Regulation (GDPR) y este documento explica cómo recolecto y pongo en uso cualquier información que me proporcionéis.
 
 **¿Qué tipo de datos son recolectados en segundo plano?**
 Esta página no usa ningún script de rastreo de terceras partes.
@@ -37,4 +37,4 @@ Si por alguna razón, necesitas discutir algo sobre la manera en la que gestiono
 
 ---
 
-*Ultima actualización: {{ page.date | formatDate('D MMMM, YYYY') }}*
+*Ultima actualización: {{ page.date | formatDate('D [de] MMMM, YYYY') }}*
