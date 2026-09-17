@@ -31,8 +31,10 @@ Si tienes dudas o preguntas, por favor contactame en: {{ personal.email }}.
 **Cambios a la política**
 Si cambian los contenidos de esta política, los cambios serán efectivos desde el momento que se publiquen en esta página.
 
-**Quejas** 
+**Reclamaciones**
+
 Si por alguna razón, necesitas discutir algo sobre la manera en la que gestiono vuestra privacidad, por favor contactadme por este email:  {{ personal.email }}.
+
 ---
 
 *Ultima actualización: {{ page.date | formatDate('D MMMM, YYYY') }}*

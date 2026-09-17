@@ -12,6 +12,6 @@ Soy una desarrolladora de software trans, y tengo mucho que decir, principalment
 Soy una gran fan del software libre, y me encantaría compartir mis 
 hallazgos con la comunidad. Para rematar, recientemente he comenzado mi transición, y está siendo un viaje salvaje, estoy segura que disfrutaréis de las historias.
 
-Por favor, sentíos libres de contactarme en cualquiera de las plataformas de redes sociales que hayan listado en el pie de página.
+Por favor, sentíos libres de contactarme en cualquiera de las plataformas de redes sociales que haya listadas en el pie de página.
 
 Funfact: He obtenido el dominio patched.blog porque los "parches" forman parte de tanto el tech como del HRT, cosas que seguro serán parte de este blog.
