@@ -19,12 +19,24 @@ const buildCss = async (inputPath, outputPaths) => {
     cssnano
   ]).process(inputContent, {from: inputPath});
 
-  for (const outputPath of outputPaths) {
-    await fs.mkdir(path.dirname(outputPath), {recursive: true});
-    await fs.writeFile(outputPath, result.css);
+  // Rewrite root-absolute asset URLs in CSS for subpath hosting
+  // (e.g. GitHub Project Pages at /repo-name/). Eleventy's HTML
+  // pathPrefix transform does not touch CSS url() references.
+  let css = result.css;
+  const prefix = process.env.PATHPREFIX || '/';
+  if (prefix !== '/') {
+    const clean = `/${prefix.replace(/^\/|\/$/g, '')}/`;
+    css = css.split(`url('/assets/`).join(`url('${clean}assets/`);
+    css = css.split(`url("/assets/`).join(`url("${clean}assets/`);
+    css = css.split(`url(/assets/`).join(`url(${clean}assets/`);
   }
 
-  return result.css;
+  for (const outputPath of outputPaths) {
+    await fs.mkdir(path.dirname(outputPath), {recursive: true});
+    await fs.writeFile(outputPath, css);
+  }
+
+  return css;
 };
 
 export const buildAllCss = async () => {

@@ -119,6 +119,9 @@ export default async function (eleventyConfig) {
   // --------------------- general config
   return {
     markdownTemplateEngine: 'njk',
+    // Supports GitHub Project Pages (`/repo-name/` subpath).
+    // Set PATHPREFIX=/eleventy-blog/ in the Pages workflow.
+    pathPrefix: process.env.PATHPREFIX || '/',
 
     dir: {
       output: 'dist',
