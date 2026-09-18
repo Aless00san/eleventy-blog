@@ -1,36 +1,32 @@
 ---
-title: 'Accessibility Statement'
-description: 'Commitment to digital accessibility and how to report accessibility issues.'
+title: 'Accessibilidad'
+description: 'Plan de accesibilidad para esta web'
 date: "Last Modified"
 permalink: /accessibility/index.html
 layout: page
 ---
 
-Accessibility design is about ensuring equal access for people with disabilities. It is about removing barriers to access.
+## Normas generales 
 
-I am very committed to this principle and I continually try to improve the user experience for everyone.
+La [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) define diferentes niveles de accesibilidad 
 
-## Conformance Status
+La plantilla con la que se construyó este blog _Eleventy Excellent_ se compromete a cumplir con [ WCAG 2.1 Level AA.](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) define requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.
-
-_Eleventy Excellent_ aims to be conformant with [ WCAG 2.1 Level AA.](https://www.w3.org/WAI/standards-guidelines/wcag/)
-
-Compliance depends on how users implement and customize the starter for their specific content and use cases.
+Yo me comprometo a mantener la estructura y las herramientas que ofrecen para mantenerlo de este modo.
 
 ## Testing
 
-[pa11y-ci](https://github.com/pa11y/pa11y-ci) is used to run automated accessibility tests, [see the Docs](/get-started/#tests).
+[pa11y-ci](https://github.com/pa11y/pa11y-ci) es usado para los tests para este proyecto, [see the Docs](/get-started/#tests).
 
 ## Feedback
 
-I very much welcome your feedback and suggestions on the accessibility of this starter project. Please let me know if you encounter any accessibility barriers:
+Por favor compartid cualquier dificultad o problema que encontréis a nivel de accesibilidad, intento mantener un sitio accesible para todo el mundo!
 
 - **GitHub Issues**: [Report accessibility issues](https://github.com/Aless00san/eleventy-blog/issues)
 - **Email**: {{ personal.email }}
 
-**Response Time**: I aim to respond to feedback within one week.
+**Tiempo estimado de respuesta**: Intentaré responder a vuestras dudas en un lapso de una semana a ser posible 
 
 ---
 
-*Last updated: {{ page.date | formatDate('D [de] MMMM, YYYY') }}*
+*Actualizado por última vez: {{ page.date | formatDate('D [de] MMMM, YYYY') }}*
